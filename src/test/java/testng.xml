@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="OpenCart Test">
+
+	
+	<!--
+	<test name="Register Test">
+        <classes>
+             <class name="opencart.tests.RegisterTest"/>
+        </classes>
+    </test> 
+	 -->
+	 
+	<test name="Browsing Test">
+		<classes>
+             <class name="opencart.tests.browsingTest"/>
+        </classes>
+	</test>   
+	<test name="Searching Test">
+		<classes>
+             <class name="opencart.tests.SearchTest"/>
+        </classes>
+	</test>    
+	<test name="Login Test">
+		<classes>
+             <class name="opencart.tests.LoginTest"/>
+        </classes>
+	</test>     
+	<test name="AddressBook Test">
+		<classes>
+             <class name="opencart.tests.AddressBookTest"/>
+        </classes>
+	</test>   
+	
+	<test name="Contact Test">
+		<classes>
+             <class name="opencart.tests.ContactTest"/>
+        </classes>
+	</test> 
+	<test name="Subscription Test">
+		<classes>
+             <class name="opencart.tests.SubscriptionTest"/>
+        </classes>
+	</test>     
+	<test name="Wishlist Test">
+     	 <parameter name="itemName" value="iPhone" />
+         <classes>
+             <class name="opencart.tests.WishlistTest"/>
+         </classes>
+    </test>
+    <test name="Compare Test">
+         <classes>
+             <class name="opencart.tests.CompareTest"/>
+         </classes>
+    </test>
+    <test name="Select Currency Test">
+         <classes>
+             <class name="opencart.tests.SelectCurrencyTest"/>
+         </classes>
+    </test>
+    <test name="Cart Test">
+         <classes>
+             <class name="opencart.tests.CartTest"/>
+         </classes>
+    </test>
+    <test name="Affiliate Test">
+         <classes>
+             <class name="opencart.tests.AffiliateTest"/>
+         </classes>
+    </test>
+    <test name="Gift Certificate Test">
+         <classes>
+             <class name="opencart.tests.GiftCertTest"/>
+         </classes>
+    </test>
+    <test name="Logout Test">
+         <classes>
+             <class name="opencart.tests.LogoutTest"/>
+         </classes>
+    </test>
+
+</suite> 
