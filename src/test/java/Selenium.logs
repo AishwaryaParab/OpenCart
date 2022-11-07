@@ -1,456 +1,72 @@
-09:20:26,961 DEBUG io.netty.util.internal.logging.InternalLoggerFactory<strong>{1}</strong>:89 - Using Log4J as the default logging framework
-09:20:26,971 DEBUG io.netty.util.ResourceLeakDetector<strong>{1}</strong>:129 - -Dio.netty.leakDetection.level: simple
-09:20:26,971 DEBUG io.netty.util.ResourceLeakDetector<strong>{1}</strong>:130 - -Dio.netty.leakDetection.targetRecords: 4
-09:20:26,979 DEBUG io.netty.util.ResourceLeakDetectorFactory<strong>{1}</strong>:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@18bc345
-09:20:27,019 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:495 - -Dio.netty.noUnsafe: false
-09:20:27,021 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:998 - Java version: 17
-09:20:27,023 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:136 - sun.misc.Unsafe.theUnsafe: available
-09:20:27,024 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:160 - sun.misc.Unsafe.copyMemory: available
-09:20:27,025 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:192 - sun.misc.Unsafe.storeFence: available
-09:20:27,026 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:235 - java.nio.Buffer.address: available
-09:20:27,027 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:319 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
-09:20:27,027 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:384 - java.nio.Bits.unaligned: available, true
-09:20:27,029 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:451 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @77468bd9
-09:20:27,031 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:481 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
-09:20:27,031 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:1120 - sun.misc.Unsafe: available
-09:20:27,093 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:1231 - maxDirectMemory: 1610612736 bytes (maybe)
-09:20:27,095 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:1250 - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
-09:20:27,096 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:1329 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
-09:20:27,097 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:1080 - Platform: Windows
-09:20:27,098 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:178 - -Dio.netty.maxDirectMemory: -1 bytes
-09:20:27,099 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
-09:20:27,100 DEBUG io.netty.util.internal.CleanerJava9<strong>{1}</strong>:71 - java.nio.ByteBuffer.cleaner(): available
-09:20:27,101 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:205 - -Dio.netty.noPreferDirect: false
-09:20:27,179 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:971 - org.jctools-core.MpscChunkedArrayQueue: available
-09:20:27,227 DEBUG io.netty.util.internal.InternalThreadLocalMap<strong>{1}</strong>:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-09:20:27,227 DEBUG io.netty.util.internal.InternalThreadLocalMap<strong>{1}</strong>:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-09:20:27,575 DEBUG io.netty.handler.ssl.JdkSslContext<strong>{1}</strong>:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-09:20:27,575 DEBUG io.netty.handler.ssl.JdkSslContext<strong>{1}</strong>:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-09:20:27,640 DEBUG io.netty.channel.MultithreadEventLoopGroup<strong>{1}</strong>:44 - -Dio.netty.eventLoopThreads: 4
-09:20:27,655 DEBUG io.netty.channel.nio.NioEventLoop<strong>{1}</strong>:109 - -Dio.netty.noKeySetOptimization: false
-09:20:27,655 DEBUG io.netty.channel.nio.NioEventLoop<strong>{1}</strong>:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
-09:20:27,785 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:157 - -Dio.netty.allocator.numHeapArenas: 4
-09:20:27,786 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:158 - -Dio.netty.allocator.numDirectArenas: 4
-09:20:27,786 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:160 - -Dio.netty.allocator.pageSize: 8192
-09:20:27,786 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:165 - -Dio.netty.allocator.maxOrder: 9
-09:20:27,786 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:169 - -Dio.netty.allocator.chunkSize: 4194304
-09:20:27,786 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:170 - -Dio.netty.allocator.smallCacheSize: 256
-09:20:27,786 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:171 - -Dio.netty.allocator.normalCacheSize: 64
-09:20:27,786 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-09:20:27,786 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
-09:20:27,787 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-09:20:27,787 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:175 - -Dio.netty.allocator.useCacheForAllThreads: false
-09:20:27,787 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-09:20:27,801 DEBUG io.netty.buffer.ByteBufUtil<strong>{1}</strong>:87 - -Dio.netty.allocator.type: pooled
-09:20:27,801 DEBUG io.netty.buffer.ByteBufUtil<strong>{1}</strong>:96 - -Dio.netty.threadLocalDirectBufferSize: 0
-09:20:27,802 DEBUG io.netty.buffer.ByteBufUtil<strong>{1}</strong>:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
-09:20:30,172 DEBUG io.netty.channel.DefaultChannelId<strong>{1}</strong>:79 - -Dio.netty.processId: 11596 (auto-detected)
-09:20:30,179 DEBUG io.netty.util.NetUtil<strong>{1}</strong>:136 - -Djava.net.preferIPv4Stack: false
-09:20:30,180 DEBUG io.netty.util.NetUtil<strong>{1}</strong>:137 - -Djava.net.preferIPv6Addresses: false
-09:20:30,193 DEBUG io.netty.util.NetUtilInitializations<strong>{1}</strong>:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-09:20:30,194 DEBUG io.netty.util.NetUtil<strong>{1}</strong>:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-09:20:30,204 DEBUG io.netty.channel.DefaultChannelId<strong>{1}</strong>:101 - -Dio.netty.machineId: 00:50:56:ff:fe:ac:95:d7 (auto-detected)
-09:20:30,270 DEBUG io.netty.buffer.AbstractByteBuf<strong>{1}</strong>:63 - -Dio.netty.buffer.checkAccessible: true
-09:20:30,270 DEBUG io.netty.buffer.AbstractByteBuf<strong>{1}</strong>:64 - -Dio.netty.buffer.checkBounds: true
-09:20:30,270 DEBUG io.netty.util.ResourceLeakDetectorFactory<strong>{1}</strong>:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@116e308d
-09:20:30,295 DEBUG io.netty.util.Recycler<strong>{1}</strong>:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
-09:20:30,295 DEBUG io.netty.util.Recycler<strong>{1}</strong>:86 - -Dio.netty.recycler.ratio: 8
-09:20:30,296 DEBUG io.netty.util.Recycler<strong>{1}</strong>:87 - -Dio.netty.recycler.chunkSize: 32
-09:20:30,296 DEBUG io.netty.util.Recycler<strong>{1}</strong>:88 - -Dio.netty.recycler.blocking: false
-09:20:33,653 DEBUG io.netty.handler.codec.compression.Brotli<strong>{1}</strong>:38 - brotli4j not in the classpath; Brotli support will be unavailable.
-09:20:34,124 DEBUG io.netty.util.internal.ThreadLocalRandom<strong>{1}</strong>:214 - -Dio.netty.initialSeedUniquifier: 0x9de38d98d79305c5
-09:20:37,245 DEBUG devpinoyLogger<strong>{1}</strong>:138 - Your Store
-09:20:38,945 DEBUG devpinoyLogger<strong>{1}</strong>:145 - Contact Us
-09:20:42,272 DEBUG devpinoyLogger<strong>{1}</strong>:153 - Register Account
-09:20:45,692 DEBUG devpinoyLogger<strong>{1}</strong>:158 - Account Login
-09:20:49,025 DEBUG devpinoyLogger<strong>{1}</strong>:164 - Account Login
-09:20:53,148 DEBUG devpinoyLogger<strong>{1}</strong>:170 - Shopping Cart
-09:20:56,186 DEBUG devpinoyLogger<strong>{1}</strong>:176 - Shopping Cart
-09:20:58,415 DEBUG devpinoyLogger<strong>{1}</strong>:186 - Shopping Cart
-09:21:00,370 DEBUG devpinoyLogger<strong>{1}</strong>:197 - Mac
-09:21:05,079 DEBUG devpinoyLogger<strong>{1}</strong>:206 - iMac
-09:21:15,214 DEBUG devpinoyLogger<strong>{1}</strong>:230 - Shopping Cart
-09:21:16,299 DEBUG devpinoyLogger<strong>{1}</strong>:252 - Laptops & Notebooks
-09:21:28,833 DEBUG devpinoyLogger<strong>{1}</strong>:265 - Your Store
-09:21:30,687 DEBUG devpinoyLogger<strong>{1}</strong>:283 - Components
-09:21:34,514 DEBUG devpinoyLogger<strong>{1}</strong>:289 - Monitors
-09:21:46,962 DEBUG devpinoyLogger<strong>{1}</strong>:301 - Your Store
-09:21:47,924 DEBUG devpinoyLogger<strong>{1}</strong>:306 - Tablets
-09:21:56,205 DEBUG devpinoyLogger<strong>{1}</strong>:318 - Your Store
-09:21:57,367 DEBUG devpinoyLogger<strong>{1}</strong>:323 - Software
-09:22:00,580 DEBUG devpinoyLogger<strong>{1}</strong>:334 - Your Store
-09:22:02,171 DEBUG devpinoyLogger<strong>{1}</strong>:339 - Phones & PDAs
-09:22:10,286 DEBUG devpinoyLogger<strong>{1}</strong>:351 - Your Store
-09:22:11,234 DEBUG devpinoyLogger<strong>{1}</strong>:356 - Cameras
-09:22:17,948 DEBUG devpinoyLogger<strong>{1}</strong>:368 - Your Store
-09:22:19,861 DEBUG devpinoyLogger<strong>{1}</strong>:387 - MP3 Players
-09:22:29,037 DEBUG devpinoyLogger<strong>{1}</strong>:403 - Your Store
-09:23:08,318 DEBUG devpinoyLogger<strong>{1}</strong>:80 - Search Box clicked
-09:23:08,318 DEBUG devpinoyLogger<strong>{1}</strong>:83 - Entering Product Name
-09:23:10,615 DEBUG devpinoyLogger<strong>{1}</strong>:87 - Product Searched Successfully
-09:23:12,252 DEBUG devpinoyLogger<strong>{1}</strong>:91 - Screenshot taken Successfully
-09:23:12,389 DEBUG devpinoyLogger<strong>{1}</strong>:99 - Product Title page asserted Successfully
-09:23:12,462 DEBUG devpinoyLogger<strong>{1}</strong>:101 - Search Box Asserted Successfully
-09:23:12,483 DEBUG devpinoyLogger<strong>{1}</strong>:103 - Search Button Asserted Successfully
-09:23:12,980 DEBUG devpinoyLogger<strong>{1}</strong>:80 - Search Box clicked
-09:23:12,980 DEBUG devpinoyLogger<strong>{1}</strong>:83 - Entering Product Name
-09:23:14,764 DEBUG devpinoyLogger<strong>{1}</strong>:87 - Product Searched Successfully
-09:23:15,814 DEBUG devpinoyLogger<strong>{1}</strong>:91 - Screenshot taken Successfully
-09:23:15,921 DEBUG devpinoyLogger<strong>{1}</strong>:99 - Product Title page asserted Successfully
-09:23:15,941 DEBUG devpinoyLogger<strong>{1}</strong>:101 - Search Box Asserted Successfully
-09:23:15,959 DEBUG devpinoyLogger<strong>{1}</strong>:103 - Search Button Asserted Successfully
-09:23:16,695 DEBUG devpinoyLogger<strong>{1}</strong>:80 - Search Box clicked
-09:23:16,696 DEBUG devpinoyLogger<strong>{1}</strong>:83 - Entering Product Name
-09:23:19,463 DEBUG devpinoyLogger<strong>{1}</strong>:87 - Product Searched Successfully
-09:23:20,200 DEBUG devpinoyLogger<strong>{1}</strong>:91 - Screenshot taken Successfully
-09:23:20,284 DEBUG devpinoyLogger<strong>{1}</strong>:99 - Product Title page asserted Successfully
-09:23:20,304 DEBUG devpinoyLogger<strong>{1}</strong>:101 - Search Box Asserted Successfully
-09:23:20,328 DEBUG devpinoyLogger<strong>{1}</strong>:103 - Search Button Asserted Successfully
-09:23:23,784 DEBUG devpinoyLogger<strong>{1}</strong>:119 - Filter Button Clicked Suss
-09:23:30,948 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:23:31,022 DEBUG devpinoyLogger<strong>{1}</strong>:82 - MyAccount Link Clicked
-09:23:31,866 DEBUG devpinoyLogger<strong>{1}</strong>:85 - Login Link Clicked
-09:23:31,919 DEBUG devpinoyLogger<strong>{1}</strong>:89 - Page scrolled
-09:23:32,055 DEBUG devpinoyLogger<strong>{1}</strong>:92 - Email Entered
-09:23:32,140 DEBUG devpinoyLogger<strong>{1}</strong>:95 - Password Entered
-09:23:32,430 DEBUG devpinoyLogger<strong>{1}</strong>:100 - Login Button Clicked
-09:23:35,845 DEBUG devpinoyLogger<strong>{1}</strong>:146 - Browser quit
-09:23:40,814 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:23:40,912 DEBUG devpinoyLogger<strong>{1}</strong>:82 - MyAccount Link Clicked
-09:23:41,760 DEBUG devpinoyLogger<strong>{1}</strong>:85 - Login Link Clicked
-09:23:41,766 DEBUG devpinoyLogger<strong>{1}</strong>:89 - Page scrolled
-09:23:41,898 DEBUG devpinoyLogger<strong>{1}</strong>:92 - Email Entered
-09:23:42,043 DEBUG devpinoyLogger<strong>{1}</strong>:95 - Password Entered
-09:23:42,314 DEBUG devpinoyLogger<strong>{1}</strong>:100 - Login Button Clicked
-09:23:45,579 DEBUG devpinoyLogger<strong>{1}</strong>:146 - Browser quit
-09:23:50,387 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:23:50,457 DEBUG devpinoyLogger<strong>{1}</strong>:82 - MyAccount Link Clicked
-09:23:51,232 DEBUG devpinoyLogger<strong>{1}</strong>:85 - Login Link Clicked
-09:23:51,259 DEBUG devpinoyLogger<strong>{1}</strong>:89 - Page scrolled
-09:23:51,386 DEBUG devpinoyLogger<strong>{1}</strong>:92 - Email Entered
-09:23:51,460 DEBUG devpinoyLogger<strong>{1}</strong>:95 - Password Entered
-09:23:51,734 DEBUG devpinoyLogger<strong>{1}</strong>:100 - Login Button Clicked
-09:23:55,339 DEBUG devpinoyLogger<strong>{1}</strong>:146 - Browser quit
-09:24:00,202 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:24:00,286 DEBUG devpinoyLogger<strong>{1}</strong>:115 - MyAccount Link Clicked
-09:24:01,120 DEBUG devpinoyLogger<strong>{1}</strong>:118 - Login Link Clicked
-09:24:01,141 DEBUG devpinoyLogger<strong>{1}</strong>:122 - Page scrolled
-09:24:01,287 DEBUG devpinoyLogger<strong>{1}</strong>:125 - Email Entered
-09:24:01,365 DEBUG devpinoyLogger<strong>{1}</strong>:128 - Password Entered
-09:24:01,621 DEBUG devpinoyLogger<strong>{1}</strong>:133 - Login Button Clicked
-09:24:05,295 DEBUG devpinoyLogger<strong>{1}</strong>:146 - Browser quit
-09:24:09,951 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:24:10,049 DEBUG devpinoyLogger<strong>{1}</strong>:115 - MyAccount Link Clicked
-09:24:10,865 DEBUG devpinoyLogger<strong>{1}</strong>:118 - Login Link Clicked
-09:24:10,885 DEBUG devpinoyLogger<strong>{1}</strong>:122 - Page scrolled
-09:24:10,980 DEBUG devpinoyLogger<strong>{1}</strong>:125 - Email Entered
-09:24:11,047 DEBUG devpinoyLogger<strong>{1}</strong>:128 - Password Entered
-09:24:11,362 DEBUG devpinoyLogger<strong>{1}</strong>:133 - Login Button Clicked
-09:24:14,743 DEBUG devpinoyLogger<strong>{1}</strong>:146 - Browser quit
-09:24:17,785 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:24:19,657 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:24:19,785 DEBUG devpinoyLogger<strong>{1}</strong>:82 - MyAccount Link Clicked
-09:24:20,664 DEBUG devpinoyLogger<strong>{1}</strong>:85 - Login Link Clicked
-09:24:20,675 DEBUG devpinoyLogger<strong>{1}</strong>:89 - Page scrolled
-09:24:20,824 DEBUG devpinoyLogger<strong>{1}</strong>:92 - Email Entered
-09:24:20,890 DEBUG devpinoyLogger<strong>{1}</strong>:95 - Password Entered
-09:24:21,147 DEBUG devpinoyLogger<strong>{1}</strong>:100 - Login Button Clicked
-09:24:32,621 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:24:32,728 DEBUG devpinoyLogger<strong>{1}</strong>:82 - MyAccount Link Clicked
-09:24:33,538 DEBUG devpinoyLogger<strong>{1}</strong>:85 - Login Link Clicked
-09:24:33,547 DEBUG devpinoyLogger<strong>{1}</strong>:89 - Page scrolled
-09:24:33,681 DEBUG devpinoyLogger<strong>{1}</strong>:92 - Email Entered
-09:24:33,766 DEBUG devpinoyLogger<strong>{1}</strong>:95 - Password Entered
-09:24:34,104 DEBUG devpinoyLogger<strong>{1}</strong>:100 - Login Button Clicked
-09:24:46,583 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:24:46,644 DEBUG devpinoyLogger<strong>{1}</strong>:82 - MyAccount Link Clicked
-09:24:47,335 DEBUG devpinoyLogger<strong>{1}</strong>:85 - Login Link Clicked
-09:24:47,339 DEBUG devpinoyLogger<strong>{1}</strong>:89 - Page scrolled
-09:24:47,451 DEBUG devpinoyLogger<strong>{1}</strong>:92 - Email Entered
-09:24:47,517 DEBUG devpinoyLogger<strong>{1}</strong>:95 - Password Entered
-09:24:47,916 DEBUG devpinoyLogger<strong>{1}</strong>:100 - Login Button Clicked
-09:24:59,080 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:24:59,162 DEBUG devpinoyLogger<strong>{1}</strong>:82 - MyAccount Link Clicked
-09:24:59,862 DEBUG devpinoyLogger<strong>{1}</strong>:85 - Login Link Clicked
-09:24:59,873 DEBUG devpinoyLogger<strong>{1}</strong>:89 - Page scrolled
-09:25:00,049 DEBUG devpinoyLogger<strong>{1}</strong>:92 - Email Entered
-09:25:00,192 DEBUG devpinoyLogger<strong>{1}</strong>:95 - Password Entered
-09:25:00,470 DEBUG devpinoyLogger<strong>{1}</strong>:100 - Login Button Clicked
-09:25:11,597 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:25:11,681 DEBUG devpinoyLogger<strong>{1}</strong>:82 - MyAccount Link Clicked
-09:25:12,377 DEBUG devpinoyLogger<strong>{1}</strong>:85 - Login Link Clicked
-09:25:12,388 DEBUG devpinoyLogger<strong>{1}</strong>:89 - Page scrolled
-09:25:12,611 DEBUG devpinoyLogger<strong>{1}</strong>:92 - Email Entered
-09:25:12,698 DEBUG devpinoyLogger<strong>{1}</strong>:95 - Password Entered
-09:25:12,984 DEBUG devpinoyLogger<strong>{1}</strong>:100 - Login Button Clicked
-09:25:24,111 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:25:24,192 DEBUG devpinoyLogger<strong>{1}</strong>:82 - MyAccount Link Clicked
-09:25:24,934 DEBUG devpinoyLogger<strong>{1}</strong>:85 - Login Link Clicked
-09:25:24,965 DEBUG devpinoyLogger<strong>{1}</strong>:89 - Page scrolled
-09:25:25,100 DEBUG devpinoyLogger<strong>{1}</strong>:92 - Email Entered
-09:25:25,183 DEBUG devpinoyLogger<strong>{1}</strong>:95 - Password Entered
-09:25:25,492 DEBUG devpinoyLogger<strong>{1}</strong>:100 - Login Button Clicked
-09:25:36,690 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:25:36,792 DEBUG devpinoyLogger<strong>{1}</strong>:82 - MyAccount Link Clicked
-09:25:37,595 DEBUG devpinoyLogger<strong>{1}</strong>:85 - Login Link Clicked
-09:25:37,599 DEBUG devpinoyLogger<strong>{1}</strong>:89 - Page scrolled
-09:25:37,776 DEBUG devpinoyLogger<strong>{1}</strong>:92 - Email Entered
-09:25:37,868 DEBUG devpinoyLogger<strong>{1}</strong>:95 - Password Entered
-09:25:38,174 DEBUG devpinoyLogger<strong>{1}</strong>:100 - Login Button Clicked
-09:26:55,703 DEBUG devpinoyLogger<strong>{1}</strong>:41 - Logging in
-09:26:55,704 DEBUG devpinoyLogger<strong>{1}</strong>:43 - News letter subscribed
-09:27:04,395 DEBUG devpinoyLogger<strong>{1}</strong>:30 - Taking Screenshot
-09:27:06,867 DEBUG devpinoyLogger<strong>{1}</strong>:50 - Closing Browser
-09:29:14,032 DEBUG devpinoyLogger<strong>{1}</strong>:24 - Cart Class initialized
-09:29:14,038 DEBUG devpinoyLogger<strong>{1}</strong>:18 - Navigation Class Initialized
-09:29:14,044 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:29:16,013 DEBUG devpinoyLogger<strong>{1}</strong>:82 - MyAccount Link Clicked
-09:29:16,882 DEBUG devpinoyLogger<strong>{1}</strong>:85 - Login Link Clicked
-09:29:16,889 DEBUG devpinoyLogger<strong>{1}</strong>:89 - Page scrolled
-09:29:17,068 DEBUG devpinoyLogger<strong>{1}</strong>:92 - Email Entered
-09:29:17,159 DEBUG devpinoyLogger<strong>{1}</strong>:95 - Password Entered
-09:29:17,449 DEBUG devpinoyLogger<strong>{1}</strong>:100 - Login Button Clicked
-09:29:20,341 DEBUG devpinoyLogger<strong>{1}</strong>:27 - Open cart homepage is opened
-09:29:20,368 DEBUG devpinoyLogger<strong>{1}</strong>:29 - To add items to cart using icon
-09:29:20,384 DEBUG devpinoyLogger<strong>{1}</strong>:34 - Scrolled to the items to be added
-09:29:20,384 DEBUG devpinoyLogger<strong>{1}</strong>:37 - Iterate through the list of items
-09:29:20,911 DEBUG devpinoyLogger<strong>{1}</strong>:46 - Finding the Add to Cart icon
-09:29:21,051 DEBUG devpinoyLogger<strong>{1}</strong>:49 - Add to Cart icon pressed
-09:29:21,573 DEBUG devpinoyLogger<strong>{1}</strong>:46 - Finding the Add to Cart icon
-09:29:21,631 DEBUG devpinoyLogger<strong>{1}</strong>:49 - Add to Cart icon pressed
-09:29:22,952 DEBUG devpinoyLogger<strong>{1}</strong>:58 - Scroll to Top of the homepage
-09:29:23,834 DEBUG devpinoyLogger<strong>{1}</strong>:33 - To view Cart
-09:29:24,844 DEBUG devpinoyLogger<strong>{1}</strong>:39 - finding view cart button
-09:29:26,163 DEBUG devpinoyLogger<strong>{1}</strong>:41 - clicked view cart button
-09:29:27,224 DEBUG devpinoyLogger<strong>{1}</strong>:49 - scrolled to view items in cart
-09:29:28,415 DEBUG devpinoyLogger<strong>{1}</strong>:86 - To continue shopping
-09:29:29,432 DEBUG devpinoyLogger<strong>{1}</strong>:92 - clicking continue shopping button
-09:29:30,255 DEBUG devpinoyLogger<strong>{1}</strong>:94 - Migrates to the home page
-09:29:31,427 DEBUG devpinoyLogger<strong>{1}</strong>:70 - to view item specification before adding to cart
-09:29:31,431 DEBUG devpinoyLogger<strong>{1}</strong>:73 - Home page opened
-09:29:31,431 DEBUG devpinoyLogger<strong>{1}</strong>:75 - Scrolled down to the item to be selected
-09:29:31,984 DEBUG devpinoyLogger<strong>{1}</strong>:84 - finding the item to be added to the cart after viewing
-09:29:33,181 DEBUG devpinoyLogger<strong>{1}</strong>:91 - clicked on the item
-09:29:33,203 DEBUG devpinoyLogger<strong>{1}</strong>:94 - Item specification Page opened
-09:29:33,226 DEBUG devpinoyLogger<strong>{1}</strong>:96 - Scrolled down to fill details
-09:29:34,292 DEBUG devpinoyLogger<strong>{1}</strong>:104 - Selected color of the item
-09:29:34,455 DEBUG devpinoyLogger<strong>{1}</strong>:108 - enter the quantity of the item
-09:29:34,665 DEBUG devpinoyLogger<strong>{1}</strong>:114 - finding add to cart button
-09:29:34,744 DEBUG devpinoyLogger<strong>{1}</strong>:116 - Add to cart button clicked
-09:29:38,041 DEBUG devpinoyLogger<strong>{1}</strong>:70 - to view item specification before adding to cart
-09:29:38,044 DEBUG devpinoyLogger<strong>{1}</strong>:73 - Home page opened
-09:29:38,045 DEBUG devpinoyLogger<strong>{1}</strong>:75 - Scrolled down to the item to be selected
-09:29:38,598 DEBUG devpinoyLogger<strong>{1}</strong>:84 - finding the item to be added to the cart after viewing
-09:29:39,521 DEBUG devpinoyLogger<strong>{1}</strong>:91 - clicked on the item
-09:29:40,338 DEBUG devpinoyLogger<strong>{1}</strong>:134 - enter the quantity of the item
-09:29:41,350 DEBUG devpinoyLogger<strong>{1}</strong>:140 - finding add to cart button
-09:29:41,413 DEBUG devpinoyLogger<strong>{1}</strong>:142 - Add to cart button clicked
-09:29:44,768 DEBUG devpinoyLogger<strong>{1}</strong>:70 - to view item specification before adding to cart
-09:29:44,772 DEBUG devpinoyLogger<strong>{1}</strong>:73 - Home page opened
-09:29:44,772 DEBUG devpinoyLogger<strong>{1}</strong>:75 - Scrolled down to the item to be selected
-09:29:45,300 DEBUG devpinoyLogger<strong>{1}</strong>:84 - finding the item to be added to the cart after viewing
-09:29:46,458 DEBUG devpinoyLogger<strong>{1}</strong>:91 - clicked on the item
-09:29:47,324 DEBUG devpinoyLogger<strong>{1}</strong>:134 - enter the quantity of the item
-09:29:48,338 DEBUG devpinoyLogger<strong>{1}</strong>:140 - finding add to cart button
-09:29:48,404 DEBUG devpinoyLogger<strong>{1}</strong>:142 - Add to cart button clicked
-09:29:50,883 DEBUG devpinoyLogger<strong>{1}</strong>:33 - To view Cart
-09:29:51,889 DEBUG devpinoyLogger<strong>{1}</strong>:39 - finding view cart button
-09:29:52,752 DEBUG devpinoyLogger<strong>{1}</strong>:41 - clicked view cart button
-09:29:53,763 DEBUG devpinoyLogger<strong>{1}</strong>:49 - scrolled to view items in cart
-09:29:54,938 DEBUG devpinoyLogger<strong>{1}</strong>:161 - to remove an item from cart
-09:29:54,945 DEBUG devpinoyLogger<strong>{1}</strong>:164 - scroll up to the view item button
-09:29:55,448 DEBUG devpinoyLogger<strong>{1}</strong>:170 - find view items button
-09:29:56,037 DEBUG devpinoyLogger<strong>{1}</strong>:180 - clicked on view items
-09:29:56,037 DEBUG devpinoyLogger<strong>{1}</strong>:182 - finding remove from cart button
-09:29:56,138 DEBUG devpinoyLogger<strong>{1}</strong>:184 - clicked remove item from cart button
-09:29:56,353 DEBUG devpinoyLogger<strong>{1}</strong>:190 - 1 item removed from the cart
-09:29:57,580 DEBUG devpinoyLogger<strong>{1}</strong>:105 - To view items in cart on current page
-09:29:57,580 DEBUG devpinoyLogger<strong>{1}</strong>:106 - find view item button
-09:29:59,650 DEBUG devpinoyLogger<strong>{1}</strong>:116 - Clicked on the view item button
-09:30:00,858 DEBUG devpinoyLogger<strong>{1}</strong>:59 - to visit checkout page
-09:30:00,862 DEBUG devpinoyLogger<strong>{1}</strong>:62 - Scroll up the page
-09:30:01,873 DEBUG devpinoyLogger<strong>{1}</strong>:68 - find checkout page link
-09:30:02,935 DEBUG devpinoyLogger<strong>{1}</strong>:75 - opened checkout page
-09:30:16,032 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:30:16,041 DEBUG group_04_opencart<strong>{1}</strong>:90 - Initialised
-09:30:16,176 DEBUG devpinoyLogger<strong>{1}</strong>:82 - MyAccount Link Clicked
-09:30:17,270 DEBUG devpinoyLogger<strong>{1}</strong>:85 - Login Link Clicked
-09:30:17,275 DEBUG devpinoyLogger<strong>{1}</strong>:89 - Page scrolled
-09:30:17,425 DEBUG devpinoyLogger<strong>{1}</strong>:92 - Email Entered
-09:30:17,602 DEBUG devpinoyLogger<strong>{1}</strong>:95 - Password Entered
-09:30:17,887 DEBUG devpinoyLogger<strong>{1}</strong>:100 - Login Button Clicked
-09:30:31,467 DEBUG group_04_opencart<strong>{1}</strong>:90 - Company name entered:Persistent Systems Limited
-09:30:31,602 DEBUG group_04_opencart<strong>{1}</strong>:90 - Website url entered:www.google.com
-09:30:31,759 DEBUG group_04_opencart<strong>{1}</strong>:90 - TaxId entered:12335
-09:30:31,833 DEBUG group_04_opencart<strong>{1}</strong>:90 - Cheque payment method chosen
-09:30:31,962 DEBUG group_04_opencart<strong>{1}</strong>:90 - Cheque payee name entered:Ramanand
-09:30:37,930 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:30:37,930 DEBUG group_04_opencart<strong>{1}</strong>:90 - Initialised
-09:30:38,078 DEBUG devpinoyLogger<strong>{1}</strong>:82 - MyAccount Link Clicked
-09:30:38,897 DEBUG devpinoyLogger<strong>{1}</strong>:85 - Login Link Clicked
-09:30:38,901 DEBUG devpinoyLogger<strong>{1}</strong>:89 - Page scrolled
-09:30:39,099 DEBUG devpinoyLogger<strong>{1}</strong>:92 - Email Entered
-09:30:39,170 DEBUG devpinoyLogger<strong>{1}</strong>:95 - Password Entered
-09:30:39,436 DEBUG devpinoyLogger<strong>{1}</strong>:100 - Login Button Clicked
-09:30:52,605 DEBUG group_04_opencart<strong>{1}</strong>:90 - Company name entered:Persistent Systems Limited
-09:30:52,726 DEBUG group_04_opencart<strong>{1}</strong>:90 - Website url entered:www.google.com
-09:30:52,824 DEBUG group_04_opencart<strong>{1}</strong>:90 - TaxId entered:12335
-09:30:52,892 DEBUG group_04_opencart<strong>{1}</strong>:90 - PayPal payment method chosen
-09:30:53,061 DEBUG group_04_opencart<strong>{1}</strong>:90 - Email id entered:Ramanand@gmail.com
-09:30:59,232 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:30:59,233 DEBUG group_04_opencart<strong>{1}</strong>:90 - Initialised
-09:30:59,344 DEBUG devpinoyLogger<strong>{1}</strong>:82 - MyAccount Link Clicked
-09:31:00,382 DEBUG devpinoyLogger<strong>{1}</strong>:85 - Login Link Clicked
-09:31:00,406 DEBUG devpinoyLogger<strong>{1}</strong>:89 - Page scrolled
-09:31:00,615 DEBUG devpinoyLogger<strong>{1}</strong>:92 - Email Entered
-09:31:00,712 DEBUG devpinoyLogger<strong>{1}</strong>:95 - Password Entered
-09:31:00,965 DEBUG devpinoyLogger<strong>{1}</strong>:100 - Login Button Clicked
-09:31:14,137 DEBUG group_04_opencart<strong>{1}</strong>:90 - Company name entered:Persistent Systems Limited
-09:31:14,282 DEBUG group_04_opencart<strong>{1}</strong>:90 - Website url entered:www.google.com
-09:31:14,385 DEBUG group_04_opencart<strong>{1}</strong>:90 - TaxId entered:12335
-09:31:14,484 DEBUG group_04_opencart<strong>{1}</strong>:90 - Bank Transfer payment option chosen
-09:31:14,595 DEBUG group_04_opencart<strong>{1}</strong>:90 - Bank name entered:BOB
-09:31:14,721 DEBUG group_04_opencart<strong>{1}</strong>:90 - ABA BAs number entered:ABA2002
-09:31:14,825 DEBUG group_04_opencart<strong>{1}</strong>:90 - Swift Code entered:swift1000
-09:31:14,932 DEBUG group_04_opencart<strong>{1}</strong>:90 - Account Name entered:RamusDafg
-09:31:15,060 DEBUG group_04_opencart<strong>{1}</strong>:90 - Account Number entered:12345637822
-09:31:22,891 DEBUG group_04_opencart<strong>{1}</strong>:90 - Home Page Opened.
-09:31:24,202 DEBUG group_04_opencart<strong>{1}</strong>:90 - Gift Certificate link clicked.
-09:31:24,324 DEBUG group_04_opencart<strong>{1}</strong>:90 - Recipient Name Entered.
-09:31:24,444 DEBUG group_04_opencart<strong>{1}</strong>:90 - Recipient Email Entered.
-09:31:24,547 DEBUG group_04_opencart<strong>{1}</strong>:90 - From Name Entered.
-09:31:24,641 DEBUG group_04_opencart<strong>{1}</strong>:90 - From Email Entered.
-09:31:24,697 DEBUG group_04_opencart<strong>{1}</strong>:90 - Gift Certificate Theme selected
-09:31:25,137 DEBUG group_04_opencart<strong>{1}</strong>:90 - Message Entered
-09:31:25,265 DEBUG group_04_opencart<strong>{1}</strong>:90 - Amount Entered
-09:31:25,324 DEBUG group_04_opencart<strong>{1}</strong>:90 - Agree Button selected
-09:31:26,626 DEBUG group_04_opencart<strong>{1}</strong>:90 - Submit Button Clicked
-09:31:28,513 DEBUG group_04_opencart<strong>{1}</strong>:90 - Continue Button Clicked
-09:31:28,757 DEBUG group_04_opencart<strong>{1}</strong>:90 - Home Page Opened.
-09:31:29,498 DEBUG group_04_opencart<strong>{1}</strong>:90 - Gift Certificate link clicked.
-09:31:29,605 DEBUG group_04_opencart<strong>{1}</strong>:90 - Recipient Name Entered.
-09:31:29,835 DEBUG group_04_opencart<strong>{1}</strong>:90 - Recipient Email Entered.
-09:31:29,912 DEBUG group_04_opencart<strong>{1}</strong>:90 - From Name Entered.
-09:31:30,012 DEBUG group_04_opencart<strong>{1}</strong>:90 - From Email Entered.
-09:31:30,079 DEBUG group_04_opencart<strong>{1}</strong>:90 - Gift Certificate Theme selected
-09:31:30,450 DEBUG group_04_opencart<strong>{1}</strong>:90 - Message Entered
-09:31:30,557 DEBUG group_04_opencart<strong>{1}</strong>:90 - Amount Entered
-09:31:30,615 DEBUG group_04_opencart<strong>{1}</strong>:90 - Agree Button selected
-09:31:31,828 DEBUG group_04_opencart<strong>{1}</strong>:90 - Submit Button Clicked
-09:31:34,016 DEBUG group_04_opencart<strong>{1}</strong>:90 - Continue Button Clicked
-09:31:40,445 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
-09:31:40,559 DEBUG devpinoyLogger<strong>{1}</strong>:82 - MyAccount Link Clicked
-09:31:41,552 DEBUG devpinoyLogger<strong>{1}</strong>:85 - Login Link Clicked
-09:31:41,556 DEBUG devpinoyLogger<strong>{1}</strong>:89 - Page scrolled
-09:31:41,673 DEBUG devpinoyLogger<strong>{1}</strong>:92 - Email Entered
-09:31:41,754 DEBUG devpinoyLogger<strong>{1}</strong>:95 - Password Entered
-09:31:42,022 DEBUG devpinoyLogger<strong>{1}</strong>:100 - Login Button Clicked
-09:31:50,088 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,090 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
-09:31:50,092 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
-09:31:50,095 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
-09:31:50,096 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
-09:31:50,204 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,205 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
-09:31:50,205 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
-09:31:50,206 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
-09:31:50,206 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
-09:31:50,425 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,427 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
-09:31:50,427 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
-09:31:50,428 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
-09:31:50,429 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
-09:31:50,436 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,436 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
-09:31:50,437 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
-09:31:50,437 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
-09:31:50,437 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
-09:31:50,439 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,439 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
-09:31:50,440 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
-09:31:50,441 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
-09:31:50,441 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
-09:31:50,445 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,446 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
-09:31:50,446 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
-09:31:50,446 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
-09:31:50,446 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
-09:31:50,459 DEBUG freemarker.cache<strong>{1}</strong>:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
-09:31:50,459 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,460 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
-09:31:50,462 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
-09:31:50,462 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
-09:31:50,463 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
-09:31:50,490 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,493 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
-09:31:50,494 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
-09:31:50,494 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
-09:31:50,494 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
-09:31:50,498 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,499 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
-09:31:50,499 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
-09:31:50,501 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
-09:31:50,501 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
-09:31:50,502 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,502 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
-09:31:50,502 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
-09:31:50,503 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
-09:31:50,503 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
-09:31:50,509 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,510 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
-09:31:50,510 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
-09:31:50,512 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
-09:31:50,512 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
-09:31:50,541 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,542 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
-09:31:50,542 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
-09:31:50,543 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
-09:31:50,543 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
-09:31:50,581 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,581 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
-09:31:50,582 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
-09:31:50,583 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
-09:31:50,584 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
-09:31:50,598 DEBUG freemarker.cache<strong>{1}</strong>:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
-09:31:50,601 DEBUG freemarker.cache<strong>{1}</strong>:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
-09:31:50,602 DEBUG freemarker.cache<strong>{1}</strong>:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
-09:31:50,605 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,606 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en_IN.ftl"): Not found
-09:31:50,609 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
-09:31:50,609 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
-09:31:50,610 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "spark/partials/exception.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
-09:31:50,611 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "spark/partials/category.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,612 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/category_en_IN.ftl"): Not found
-09:31:50,612 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
-09:31:50,612 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
-09:31:50,613 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "spark/partials/category.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
-09:31:50,614 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "spark/partials/device.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,616 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/device_en_IN.ftl"): Not found
-09:31:50,617 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
-09:31:50,617 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
-09:31:50,617 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "spark/partials/device.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
-09:31:50,618 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "spark/partials/author.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,621 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/author_en_IN.ftl"): Not found
-09:31:50,621 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
-09:31:50,622 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
-09:31:50,622 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "spark/partials/author.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
-09:31:50,624 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "spark/partials/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,625 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/log_en_IN.ftl"): Not found
-09:31:50,625 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
-09:31:50,626 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
-09:31:50,626 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "spark/partials/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
-09:31:50,629 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,629 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
-09:31:50,630 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
-09:31:50,630 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
-09:31:50,630 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
-09:31:50,711 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,712 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
-09:31:50,712 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
-09:31:50,712 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
-09:31:50,713 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
-09:31:50,714 DEBUG freemarker.cache<strong>{1}</strong>:45 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
-09:31:50,715 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
-09:31:50,715 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
-09:31:50,716 DEBUG freemarker.cache<strong>{1}</strong>:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
-09:31:50,716 DEBUG freemarker.cache<strong>{1}</strong>:45 - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/Administrator/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+11:11:28,643 DEBUG io.netty.util.internal.logging.InternalLoggerFactory<strong>{1}</strong>:89 - Using Log4J as the default logging framework
+11:11:28,672 DEBUG io.netty.util.ResourceLeakDetector<strong>{1}</strong>:129 - -Dio.netty.leakDetection.level: simple
+11:11:28,673 DEBUG io.netty.util.ResourceLeakDetector<strong>{1}</strong>:130 - -Dio.netty.leakDetection.targetRecords: 4
+11:11:28,680 DEBUG io.netty.util.ResourceLeakDetectorFactory<strong>{1}</strong>:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2049a9c1
+11:11:28,729 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:495 - -Dio.netty.noUnsafe: false
+11:11:28,730 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:998 - Java version: 17
+11:11:28,732 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:136 - sun.misc.Unsafe.theUnsafe: available
+11:11:28,733 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:160 - sun.misc.Unsafe.copyMemory: available
+11:11:28,734 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:192 - sun.misc.Unsafe.storeFence: available
+11:11:28,734 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:235 - java.nio.Buffer.address: available
+11:11:28,735 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:319 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+11:11:28,736 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:384 - java.nio.Bits.unaligned: available, true
+11:11:28,737 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:451 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @77468bd9
+11:11:28,738 DEBUG io.netty.util.internal.PlatformDependent0<strong>{1}</strong>:481 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+11:11:28,738 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:1120 - sun.misc.Unsafe: available
+11:11:28,756 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:1231 - maxDirectMemory: 1610612736 bytes (maybe)
+11:11:28,757 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:1250 - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+11:11:28,757 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:1329 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+11:11:28,759 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:1080 - Platform: Windows
+11:11:28,760 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:178 - -Dio.netty.maxDirectMemory: -1 bytes
+11:11:28,760 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+11:11:28,761 DEBUG io.netty.util.internal.CleanerJava9<strong>{1}</strong>:71 - java.nio.ByteBuffer.cleaner(): available
+11:11:28,762 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:205 - -Dio.netty.noPreferDirect: false
+11:11:28,777 DEBUG io.netty.util.internal.PlatformDependent<strong>{1}</strong>:971 - org.jctools-core.MpscChunkedArrayQueue: available
+11:11:28,832 DEBUG io.netty.util.internal.InternalThreadLocalMap<strong>{1}</strong>:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+11:11:28,832 DEBUG io.netty.util.internal.InternalThreadLocalMap<strong>{1}</strong>:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+11:11:29,170 DEBUG io.netty.handler.ssl.JdkSslContext<strong>{1}</strong>:83 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+11:11:29,170 DEBUG io.netty.handler.ssl.JdkSslContext<strong>{1}</strong>:84 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+11:11:29,205 DEBUG io.netty.channel.MultithreadEventLoopGroup<strong>{1}</strong>:44 - -Dio.netty.eventLoopThreads: 4
+11:11:29,218 DEBUG io.netty.channel.nio.NioEventLoop<strong>{1}</strong>:109 - -Dio.netty.noKeySetOptimization: false
+11:11:29,218 DEBUG io.netty.channel.nio.NioEventLoop<strong>{1}</strong>:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+11:11:29,300 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:157 - -Dio.netty.allocator.numHeapArenas: 4
+11:11:29,300 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:158 - -Dio.netty.allocator.numDirectArenas: 4
+11:11:29,300 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:160 - -Dio.netty.allocator.pageSize: 8192
+11:11:29,301 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:165 - -Dio.netty.allocator.maxOrder: 9
+11:11:29,301 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:169 - -Dio.netty.allocator.chunkSize: 4194304
+11:11:29,301 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:170 - -Dio.netty.allocator.smallCacheSize: 256
+11:11:29,301 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:171 - -Dio.netty.allocator.normalCacheSize: 64
+11:11:29,301 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+11:11:29,301 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+11:11:29,302 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+11:11:29,302 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+11:11:29,302 DEBUG io.netty.buffer.PooledByteBufAllocator<strong>{1}</strong>:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+11:11:29,314 DEBUG io.netty.buffer.ByteBufUtil<strong>{1}</strong>:87 - -Dio.netty.allocator.type: pooled
+11:11:29,314 DEBUG io.netty.buffer.ByteBufUtil<strong>{1}</strong>:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+11:11:29,314 DEBUG io.netty.buffer.ByteBufUtil<strong>{1}</strong>:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+11:11:30,153 DEBUG io.netty.channel.DefaultChannelId<strong>{1}</strong>:79 - -Dio.netty.processId: 28364 (auto-detected)
+11:11:30,156 DEBUG io.netty.util.NetUtil<strong>{1}</strong>:136 - -Djava.net.preferIPv4Stack: false
+11:11:30,156 DEBUG io.netty.util.NetUtil<strong>{1}</strong>:137 - -Djava.net.preferIPv6Addresses: false
+11:11:30,164 DEBUG io.netty.util.NetUtilInitializations<strong>{1}</strong>:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+11:11:30,165 DEBUG io.netty.util.NetUtil<strong>{1}</strong>:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+11:11:30,176 DEBUG io.netty.channel.DefaultChannelId<strong>{1}</strong>:101 - -Dio.netty.machineId: 00:50:56:ff:fe:ac:95:d7 (auto-detected)
+11:11:30,236 DEBUG io.netty.buffer.AbstractByteBuf<strong>{1}</strong>:63 - -Dio.netty.buffer.checkAccessible: true
+11:11:30,236 DEBUG io.netty.buffer.AbstractByteBuf<strong>{1}</strong>:64 - -Dio.netty.buffer.checkBounds: true
+11:11:30,236 DEBUG io.netty.util.ResourceLeakDetectorFactory<strong>{1}</strong>:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3ad610fc
+11:11:30,264 DEBUG io.netty.util.Recycler<strong>{1}</strong>:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+11:11:30,264 DEBUG io.netty.util.Recycler<strong>{1}</strong>:86 - -Dio.netty.recycler.ratio: 8
+11:11:30,264 DEBUG io.netty.util.Recycler<strong>{1}</strong>:87 - -Dio.netty.recycler.chunkSize: 32
+11:11:30,264 DEBUG io.netty.util.Recycler<strong>{1}</strong>:88 - -Dio.netty.recycler.blocking: false
+11:11:32,767 DEBUG io.netty.handler.codec.compression.Brotli<strong>{1}</strong>:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+11:11:33,031 DEBUG io.netty.util.internal.ThreadLocalRandom<strong>{1}</strong>:214 - -Dio.netty.initialSeedUniquifier: 0xd7d8ed30df1baa39
+11:11:35,287 DEBUG devpinoyLogger<strong>{1}</strong>:65 - Opened OpenCart
+11:11:35,386 DEBUG devpinoyLogger<strong>{1}</strong>:82 - MyAccount Link Clicked
+11:11:36,314 DEBUG devpinoyLogger<strong>{1}</strong>:85 - Login Link Clicked
+11:11:36,323 DEBUG devpinoyLogger<strong>{1}</strong>:89 - Page scrolled
+11:11:36,452 DEBUG devpinoyLogger<strong>{1}</strong>:92 - Email Entered
+11:11:36,546 DEBUG devpinoyLogger<strong>{1}</strong>:95 - Password Entered
+11:11:36,849 DEBUG devpinoyLogger<strong>{1}</strong>:100 - Login Button Clicked
+11:11:40,204 DEBUG group_04_opencart<strong>{1}</strong>:90 - Change Password Button Clicked
+11:11:40,310 DEBUG group_04_opencart<strong>{1}</strong>:90 - Password Entered
+11:11:40,390 DEBUG group_04_opencart<strong>{1}</strong>:90 - Confirm Password Entered
+11:11:40,654 DEBUG group_04_opencart<strong>{1}</strong>:90 - Continue Button Clicked

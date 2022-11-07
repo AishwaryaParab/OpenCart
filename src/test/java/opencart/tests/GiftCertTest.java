@@ -27,6 +27,7 @@ public class GiftCertTest {
 		  setupPage.getDriverSetup();
 		  gift = new GiftCertPage(driver);
 	}
+	
   @Test
   public void fillGiftCert() throws Exception {
 	  String recName = "";

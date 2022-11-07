@@ -25,10 +25,23 @@
 		<classes>
              <class name="opencart.tests.LoginTest"/>
         </classes>
-	</test>     
+	</test>   
+	  
 	<test name="AddressBook Test">
 		<classes>
              <class name="opencart.tests.AddressBookTest"/>
+        </classes>
+	</test>  
+	
+	<test name="Edit Account Test">
+		<classes>
+             <class name="opencart.tests.EditAccountTest"/>
+        </classes>
+	</test>   
+	
+	<test name="Change Password Test">
+		<classes>
+             <class name="opencart.tests.ChangePasswordTest"/>
         </classes>
 	</test>   
 	
@@ -37,6 +50,7 @@
              <class name="opencart.tests.ContactTest"/>
         </classes>
 	</test> 
+	
 	<test name="Subscription Test">
 		<classes>
              <class name="opencart.tests.SubscriptionTest"/>
